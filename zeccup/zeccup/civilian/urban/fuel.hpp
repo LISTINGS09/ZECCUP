@@ -1,14 +1,14 @@
     class FuelLarge
     {
-      name = "Fuel (Large)";
+      name = $STR_ZECCUP_FuelLarge;
     };
     class FuelMedium
     {
-        name = "Fuel (Medium)";
+        name = $STR_ZECCUP_FuelMedium;
     };
     class FuelSmall
     {
-		name = "Fuel (Small)";
+        name = $STR_ZECCUP_FuelSmall;
     };
 
 

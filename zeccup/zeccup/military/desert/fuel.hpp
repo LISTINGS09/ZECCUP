@@ -1,13 +1,13 @@
     class FuelLarge
     {
-      name = "Fuel (Large)";
+      name = $STR_ZECCUP_FuelLarge;
     };
     class FuelMedium
     {
-        name = "Fuel (Medium)";
+        name = $STR_ZECCUP_FuelMedium;
 		// EAST
-		class ZECCUP_OilT_CUP_O_TK {
-			name = "Oil Tower (East)"; // Credit: 2600K
+		class OilT_CUP_O_TK {
+			name = $STR_ZECCUP_MilitaryDesert_FuelMedium_OilT_CUP_O_TK; // Credit: 2600K
 			icon = "\ca\data\flag_rus_co.paa";
 			class Object1 {side = 8; vehicle = "Land_HBarrier5"; rank = ""; position[] = {-5.49365,-13.4504,0}; dir = 180;};
 			class Object2 {side = 8; vehicle = "Land_HBarrier5"; rank = ""; position[] = {-11.3256,-8.00635,0}; dir = 270;};
@@ -57,8 +57,8 @@
 			class Object47 {side = 8; vehicle = "Land_Pallet_vertical_F"; rank = ""; position[] = {2.37402,8.62549,0}; dir = 299.99;};
 			class Object48 {side = 8; vehicle = "Land_fort_bagfence_long"; rank = ""; position[] = {9.48608,6.76538,0}; dir = 90;};
 		};
-		class ZECCUP_Fuel_CUP_O_TK {
-			name = "Fuel Dump (East)"; // Credit: 2600K
+		class FuelDump_CUP_O_TK {
+			name = $STR_ZECCUP_MilitaryDesert_FuelMedium_FuelDump_CUP_O_TK; // Credit: 2600K
 			icon = "\ca\data\flag_rus_co.paa";
 			class Object3 {side = 8; vehicle = "Land_CamoNetB_EAST_EP1"; rank = ""; position[] = {-0.545288,4.7356,0}; dir = 0;};
 			class Object4 {side = 8; vehicle = "Land_HBarrier5"; rank = ""; position[] = {-15.3256,2.61865,0}; dir = 270;};
@@ -107,8 +107,8 @@
 			class Object52 {side = 8; vehicle = "Barrel4"; rank = ""; position[] = {1.5,5.5,0}; dir = 0;};
 		};
 		//WEST
-		class ZECCUP_OilT_CUP_B_USMC {
-			name = "Oil Tower (West)"; // Credit: 2600K
+		class OilT_CUP_B_USMC {
+			name = $STR_ZECCUP_MilitaryDesert_FuelMedium_OilT_CUP_B_USMC; // Credit: 2600K
 			icon = "\ca\data\flag_usa_co.paa";
 			class Object1 {side = 8; vehicle = "Land_HBarrier5"; rank = ""; position[] = {-11.2994,-0.493652,0}; dir = 90;};
 			class Object2 {side = 8; vehicle = "Land_HBarrier5"; rank = ""; position[] = {0.756348,-2.20044,0}; dir = 180;};
@@ -152,8 +152,8 @@
 			class Object41 {side = 8; vehicle = "FoldChair"; rank = ""; position[] = {5.62354,2.87402,0}; dir = 150;};
 			class Object42 {side = 8; vehicle = "Land_BarrelWater_grey_F"; rank = ""; position[] = {5.12488,6.375,0}; dir = 359.984;};
 		};
-		class ZECCUP_Fuel_CUP_B_USMC {
-			name = "Fuel Dump (West)"; // Credit: 2600K
+		class FuelDump_CUP_B_USMC {
+			name = $STR_ZECCUP_MilitaryDesert_FuelMedium_FuelDump_CUP_B_USMC; // Credit: 2600K
 			icon = "\ca\data\flag_usa_co.paa";
 			class Object1 {side = 8; vehicle = "Land_HBarrier5"; rank = ""; position[] = {-3.86865,-1.82544,0}; dir = 180;};
 			class Object2 {side = 8; vehicle = "Land_HBarrier5"; rank = ""; position[] = {-9.57556,-2.00635,0}; dir = 270;};
@@ -196,7 +196,7 @@
     };
     class FuelSmall
     {
-        name = "Fuel (Small)";
+        name = $STR_ZECCUP_FuelSmall;
     };
 
 

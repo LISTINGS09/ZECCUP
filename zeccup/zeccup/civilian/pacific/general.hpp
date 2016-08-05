@@ -1,13 +1,12 @@
     class GeneralLarge
     {
-        name = "General (Large)";
+        name = $STR_ZECCUP_GeneralLarge;
     };
     class GeneralMedium
     {
-        name = "General (Medium)";
-
+        name = $STR_ZECCUP_GeneralMedium;
     };
     class GeneralSmall
     {
-        name = "General (Small)";
+        name = $STR_ZECCUP_GeneralSmall;
     };

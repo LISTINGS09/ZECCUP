@@ -1,9 +1,9 @@
     class GeneralLarge
     {
-        name = "General (Large)";
-		class ZECCUP_Castle {
-			name = "Castle"; // Credit: 2600K
-			icon = "\a3\Ui_f\data\Map\Markers\Military\unknown_ca.paa";
+        name = $STR_ZECCUP_GeneralLarge;
+		class Castle {
+			name = $STR_ZECCUP_Civilian_GeneralLarge_Castle; // Credit: 2600K
+			icon = "\a3\Ui_f\data\Map\MapControl\busstop_ca.paa";
 			class Object1 {side = 8; vehicle = "Land_A_castle_bastion"; rank = ""; position[] = {-55.0627,7.27295,0}; dir = 270;};
 			class Object2 {side = 8; vehicle = "Land_A_castle_wall2_30"; rank = ""; position[] = {-47.0984,-13.6108,0}; dir = 270;};
 			class Object3 {side = 8; vehicle = "Land_A_castle_wall2_end_2"; rank = ""; position[] = {-43.6001,-27.6685,0}; dir = 180;};
@@ -36,9 +36,9 @@
 			class Object31 {side = 8; vehicle = "Land_A_castle_wall1_corner_2"; rank = ""; position[] = {34.6587,48.835,0}; dir = 45;};
 			class Object32 {side = 8; vehicle = "Land_A_castle_wall1_end"; rank = ""; position[] = {23.5818,49.3181,0}; dir = 0;};
 		};
-		class ZECCUP_Mosque {
-			name = "Mosque"; // Credit: 2600K
-			icon = "\a3\Ui_f\data\Map\Markers\Military\unknown_ca.paa";
+		class Mosque {
+			name = $STR_ZECCUP_Civilian_GeneralLarge_Mosque; // Credit: 2600K
+			icon = "\a3\Ui_f\data\Map\MapControl\church_ca.paa";
 			class Object1 {side = 8; vehicle = "Land_A_mosque_big_wall_ep1"; rank = ""; position[] = {-36.7964,0.462402,0}; dir = 270;};
 			class Object2 {side = 8; vehicle = "Land_A_mosque_big_wall_corner_ep1"; rank = ""; position[] = {-26.0669,-22.2549,0}; dir = 180;};
 			class Object3 {side = 8; vehicle = "Land_A_mosque_big_wall_ep1"; rank = ""; position[] = {-26.063,-22.2642,0}; dir = 180;};
@@ -62,10 +62,10 @@
     };
     class GeneralMedium
     {
-        name = "General (Medium)";
+        name = $STR_ZECCUP_GeneralMedium;
 
     };
     class GeneralSmall
     {
-        name = "General (Small)";
+        name = $STR_ZECCUP_GeneralSmall;
     };

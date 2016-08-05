@@ -1,9 +1,9 @@
     class IndustrialLarge
     {
-        name = "Industrial (Large)";
-		class ZECCUP_Dam {
-			name = "Dam"; // Credit: 2600K
-			icon = "\a3\Ui_f\data\Map\Markers\Military\unknown_ca.paa";
+        name = $STR_ZECCUP_IndustrialLarge;
+		class Dam {
+			name = $STR_ZECCUP_Civilian_IndustrialLarge_Dam; // Credit: 2600K
+			icon = "\a3\Ui_f\data\Map\MapControl\busstop_ca.paa";
 			class Object1 {side = 8; vehicle = "Land_dam_concp_20"; rank = ""; position[] = {-59.1169,12.3154,0}; dir = 0;};
 			class Object2 {side = 8; vehicle = "Land_dam_conc_20"; rank = ""; position[] = {-40.071,12.2871,0}; dir = 0;};
 			class Object4 {side = 8; vehicle = "Land_dam_concp_20"; rank = ""; position[] = {-0.116943,12.3154,0}; dir = 0;};
@@ -12,9 +12,9 @@
 			class Object7 {side = 8; vehicle = "Land_dam_conc_20"; rank = ""; position[] = {38.929,12.2871,0}; dir = 0;};
 			class Object8 {side = 8; vehicle = "Land_dam_concp_20"; rank = ""; position[] = {58.8831,12.3154,0}; dir = 0;};
 		};
-		class ZECCUP_IndustrialBuilding1 {
-			name = "Industrial Building #1"; // Credit: 2600K
-			icon = "\a3\Ui_f\data\Map\Markers\Military\unknown_ca.paa";
+		class IndustrialBuilding1 {
+			name = $STR_ZECCUP_Civilian_IndustrialLarge_IndustrialBuilding1; // Credit: 2600K
+			icon = "\a3\Ui_f\data\Map\MapControl\watertower_ca.paa";
 			class Object1 {side = 8; vehicle = "Land_Ind_mlyn_03"; rank = ""; position[] = {-29.397,-43.3887,0}; dir = 270;};
 			class Object2 {side = 8; vehicle = "Land_Ind_mlyn_02"; rank = ""; position[] = {-18.2349,-29.6333,0}; dir = 270;};
 			class Object3 {side = 8; vehicle = "Land_D_pec_02"; rank = ""; position[] = {-13.6021,1.39844,0}; dir = 0;};
@@ -26,9 +26,9 @@
 			class Object10 {side = 8; vehicle = "Land_Ind_mlyn_01"; rank = ""; position[] = {32.3042,-33.5737,0}; dir = 270;};
 			class Object11 {side = 8; vehicle = "Land_Ind_silomale"; rank = ""; position[] = {64.5688,-27.436,0}; dir = 270;};
 		};
-		class ZECCUP_IndustrialBuilding2 {
-			name = "Industrial Building #2"; // Credit: 2600K
-			icon = "\a3\Ui_f\data\Map\Markers\Military\unknown_ca.paa";
+		class IndustrialBuilding2 {
+			name = $STR_ZECCUP_Civilian_IndustrialLarge_IndustrialBuilding2; // Credit: 2600K
+			icon = "\a3\Ui_f\data\Map\MapControl\watertower_ca.paa";
 			class Object1 {side = 8; vehicle = "Land_D_VSilo_Pec"; rank = ""; position[] = {-47.9795,-1.26587,0}; dir = 0;};
 			class Object2 {side = 8; vehicle = "Land_Ind_Quarry"; rank = ""; position[] = {-64.9453,1.89868,0}; dir = 0;};
 			class Object3 {side = 8; vehicle = "Land_Ind_silovelke_01"; rank = ""; position[] = {-22.0718,-21.2522,0}; dir = 180;};
@@ -45,10 +45,10 @@
     };
     class IndustrialMedium
     {
-        name = "Industrial (Medium)";
-		class ZECCUP_Crane {
-			name = "Dock Crane"; // Credit: 2600K
-			icon = "\a3\Ui_f\data\Map\Markers\Military\unknown_ca.paa";
+        name = $STR_ZECCUP_IndustrialMedium;
+		class Crane {
+			name = $STR_ZECCUP_Civilian_IndustrialMedium_Crane; // Credit: 2600K
+			icon = "\a3\Ui_f\data\Map\MapControl\busstop_ca.paa";
 			class Object1 {side = 8; vehicle = "Land_A_crane_02b"; rank = ""; position[] = {-0.493896,2.00464,0}; dir = 0;};
 			class Object2 {side = 8; vehicle = "Land_A_crane_02a"; rank = ""; position[] = {-0.54834,1.96387,0}; dir = 0;};
 			class Object3 {side = 8; vehicle = "CUP_A2_crane_rails"; rank = ""; position[] = {-0.543457,-7.03613,0}; dir = 0;};
@@ -59,6 +59,6 @@
     };
     class IndustrialSmall
     {
-        name = "Industrial (Small)";
+        name = $STR_ZECCUP_IndustrialSmall;
 
     };

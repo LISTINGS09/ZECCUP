@@ -1,17 +1,17 @@
     class PowerLarge
     {
-        name = "Power (Large)";
+        name = $STR_ZECCUP_PowerLarge;
     };
     class PowerMedium
     {
-        name = "Power (Medium)";
+        name = $STR_ZECCUP_PowerMedium;
     };
     class PowerSmall
     {
-        name = "Power (Small)";
+        name = $STR_ZECCUP_PowerSmall;
 		// EAST
-		class ZECCUP_Generator_CUP_O_TK {
-			name = "Generator (East)"; // Credit: 2600K
+		class Generator_CUP_O_TK {
+			name = $STR_ZECCUP_MilitaryDesert_PowerSmall_Generator_CUP_O_TK; // Credit: 2600K
 			icon = "\ca\data\flag_rus_co.paa";
 			class Object0 {side = 8; vehicle = "PowGen_Big"; rank = ""; position[] = {-1.90869,0.339844,0}; dir = 75;};
 			class Object1 {side = 8; vehicle = "FoldTable"; rank = ""; position[] = {-2.953,-5.50879,0}; dir = 240;};
@@ -36,8 +36,8 @@
 			class Object21 {side = 8; vehicle = "Land_Sack_F"; rank = ""; position[] = {3.96924,1.59668,0}; dir = 330;};
 		};
 		// WEST
-		class ZECCUP_Generator_CUP_B_USMC {
-			name = "Generator (West)"; // Credit: 2600K
+		class Generator_CUP_B_USMC {
+			name = $STR_ZECCUP_MilitaryDesert_PowerSmall_Generator_CUP_B_USMC; // Credit: 2600K
 			icon = "\ca\data\flag_usa_co.paa";
 			class Object0 {side = 8; vehicle = "Land_WoodenTable_large_F"; rank = ""; position[] = {-2.875,-0.25,0}; dir = 119.69;};
 			class Object1 {side = 8; vehicle = "AmmoCrate_NoInteractive_"; rank = ""; position[] = {-6.65771,1.25146,0}; dir = 150;};

@@ -1,17 +1,17 @@
     class CampsLarge
     {
-        name = "Camps (Large)";
+        name = $STR_ZECCUP_CampsLarge;
     };
     class CampsMedium
     {
-        name = "Camps (Medium)";
+        name = $STR_ZECCUP_CampsMedium;
     };
     class CampsSmall
     {
-        name = "Camps (Small)";
+        name = $STR_ZECCUP_CampsSmall;
 		// EAST
-		class ZECCUP_Camp_CUP_O_TK {
-			name = "Camp (East)"; // Credit: 2600K
+		class Camp_CUP_O_TK {
+			name = $STR_ZECCUP_MilitaryDesert_CampsSmall_Camp_CUP_O_TK; // Credit: 2600K
 			icon = "\ca\data\flag_rus_co.paa";
 			class Object0 {side = 8; vehicle = "Land_CamoNetVar_EAST_EP1"; rank = ""; position[] = {-0.123779,0.469727,0}; dir = 0;};
 			class Object1 {side = 8; vehicle = "Land_TentA_F"; rank = ""; position[] = {-4.08911,1.08496,0}; dir = 315;};
@@ -32,8 +32,8 @@
 			class Object17 {side = 8; vehicle = "Land_TentA_F"; rank = ""; position[] = {5.28418,2.57617,0}; dir = 15;};
 		};
 		// WEST
-		class ZECCUP_Camp_CUP_B_USMC {
-			name = "Camp (West)"; // Credit: 2600K
+		class Camp_CUP_B_USMC {
+			name = $STR_ZECCUP_MilitaryDesert_CampsSmall_Camp_CUP_B_USMC; // Credit: 2600K
 			icon = "\ca\data\flag_usa_co.paa";
 			class Object0 {side = 8; vehicle = "Land_CamoNetVar_NATO_EP1"; rank = ""; position[] = {-1.22827,-2.25,0}; dir = 0;};
 			class Object1 {side = 8; vehicle = "Land_Garbage_square5_F"; rank = ""; position[] = {-2.87671,-3.02539,0}; dir = 189.408;};

@@ -1,12 +1,12 @@
     class CrashsitesLarge
     {
-        name = "Crashsites (Large)";
+        name = $STR_ZECCUP_CrashsitesLarge;
     };
     class CrashsitesMedium
     {
-        name = "Crashsites (Medium)";
+        name = $STR_ZECCUP_CrashsitesMedium;
     };
     class CrashsitesSmall
     {
-        name = "Crashsites (Small)";
+        name = $STR_ZECCUP_CrashsitesSmall;
     };

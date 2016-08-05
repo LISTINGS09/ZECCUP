@@ -1,15 +1,13 @@
     class IndustrialLarge
     {
-        name = "Industrial (Large)";
-
+        name = $STR_ZECCUP_IndustrialLarge;
     };
+
     class IndustrialMedium
     {
-        name = "Industrial (Medium)";
-
+        name = $STR_ZECCUP_IndustrialMedium;
     };
     class IndustrialSmall
     {
-        name = "Industrial (Small)";
-
+        name = $STR_ZECCUP_IndustrialSmall;
     };

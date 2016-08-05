@@ -1,15 +1,12 @@
     class FortLarge
     {
-        name = "Fortifications & Bunkers (Large)";
-
+        name = $STR_ZECCUP_FortLarge;
     };
     class FortMedium
     {
-        name = "Fortifications & Bunkers (Medium)";
-
+        name = $STR_ZECCUP_FortMedium;
     };
     class FortSmall
     {
-        name = "Fortifications & Bunkers (Small)";
-
+        name = $STR_ZECCUP_FortSmall;
     };

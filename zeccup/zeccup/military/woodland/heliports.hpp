@@ -1,9 +1,9 @@
     class HeliportsLarge
     {
-        name = "Heliports (Large)";
+        name = $STR_ZECCUP_HeliportsLarge;
 		// EAST
-		class ZECCUP_AirFact_CUP_O_RU {
-			name = "Aircraft Factory (East)"; // Credit: 2600K
+		class AirFactory_CUP_O_RU {
+			name = $STR_ZECCUP_MilitaryWoodland_HeliportsLarge_AirFactory_CUP_O_RU; // Credit: 2600K
 			icon = "\ca\data\flag_rus_co.paa";
 			class Object0 {side = 8; vehicle = "Land_fort_rampart"; rank = ""; position[] = {-14.9753,-5.67383,0}; dir = 75;};
 			class Object1 {side = 8; vehicle = "Barrels"; rank = ""; position[] = {-14.375,-0.75,0}; dir = 60;};
@@ -41,9 +41,9 @@
 			class Object34 {side = 8; vehicle = "Barrel1"; rank = ""; position[] = {12.5331,6.8291,0}; dir = 315;};
 			class Object35 {side = 8; vehicle = "AmmoCrate_NoInteractive_"; rank = ""; position[] = {13.9824,2.34717,0}; dir = 90;};
 		};
-		class ZECCUP_LZLrg_CUP_O_RU {
+		class LandingZone_CUP_O_RU {
 
-			name = "LZ - Large (East)"; // Credit: 2600K
+			name = $STR_ZECCUP_MilitaryWoodland_HeliportsLarge_LandingZone_CUP_O_RU; // Credit: 2600K
 			icon = "\ca\data\flag_rus_co.paa";
 			class Object1 {side = 8; vehicle = "Land_fort_bagfence_long"; rank = ""; position[] = {-4.20276,-23.7031,0}; dir = 210;};
 			class Object2 {side = 8; vehicle = "Land_fort_bagfence_long"; rank = ""; position[] = {-1.57776,-25.2031,0}; dir = 210;};
@@ -133,8 +133,8 @@
 			class Object94 {side = 8; vehicle = "Barrel2"; rank = ""; position[] = {12.8252,22.4961,0}; dir = 165;};
 		};
 		// WEST
-		class ZECCUP_LZLrg_CUP_B_CDF {
-			name = "LZ - Large (West)"; // Credit: 2600K
+		class LandingZone_CUP_B_CDF {
+			name = $STR_ZECCUP_MilitaryWoodland_HeliportsLarge_LandingZone_CUP_B_CDF; // Credit: 2600K
 			icon = "\ca\data\flag_usa_co.paa";
 			class Object2 {side = 8; vehicle = "Land_HBarrier_Big_F"; rank = ""; position[] = {-15.7853,-19.0825,0}; dir = 0;};
 			class Object3 {side = 8; vehicle = "Land_HBarrier_Big_F"; rank = ""; position[] = {-27.5426,-5.91016,0}; dir = 270;};
@@ -222,8 +222,8 @@
 			class Object93 {side = 8; vehicle = "Land_BarrelWater_grey_F"; rank = ""; position[] = {12.4999,4.5,0}; dir = 359.98;};
 			class Object94 {side = 8; vehicle = "CampEastC"; rank = ""; position[] = {13.3306,16.3306,0}; dir = 45;};
 		};
-		class ZECCUP_AirFact_CUP_B_CDF {
-			name = "Aircraft Factory (West)"; // Credit: 2600K
+		class AirFactory_CUP_B_CDF {
+			name = $STR_ZECCUP_MilitaryWoodland_HeliportsLarge_AirFactory_CUP_B_CDF; // Credit: 2600K
 			icon = "\ca\data\flag_usa_co.paa";
 			class Object0 {side = 8; vehicle = "Land_HelipadCircle_F"; rank = ""; position[] = {-4.5,-6.75,0}; dir = 0;};
 			class Object1 {side = 8; vehicle = "Land_HBarrier_Big_F"; rank = ""; position[] = {-8.31958,-19.9297,0}; dir = 195;};
@@ -280,10 +280,10 @@
     };
     class HeliportsMedium
     {
-        name = "Heliports (Medium)";
+        name = $STR_ZECCUP_HeliportsMedium;
 		// EAST
-		class ZECCUP_LZMed_CUP_O_RU {
-			name = "LZ - Medium (East)"; // Credit: 2600K
+		class LandingZone_CUP_O_RU {
+			name = $STR_ZECCUP_MilitaryWoodland_HeliportsMedium_LandingZone_CUP_O_RU; // Credit: 2600K
 			icon = "\ca\data\flag_rus_co.paa";
 			class Object1 {side = 8; vehicle = "Land_fort_bagfence_round"; rank = ""; position[] = {-11.4608,-8.37256,0}; dir = 270;};
 			class Object2 {side = 8; vehicle = "Land_Garbage_square5_F"; rank = ""; position[] = {-1.96228,-10.1782,0}; dir = 0;};
@@ -334,8 +334,8 @@
 			class Object48 {side = 8; vehicle = "Land_MetalBarrel_F"; rank = ""; position[] = {15.5001,11.5,0}; dir = 164.973;};
 		};
 		// WEST
-		class ZECCUP_LZMed_CUP_B_CDF {
-			name = "LZ - Medium (West)"; // Credit: 2600K
+		class LandingZone_CUP_B_CDF {
+			name = $STR_ZECCUP_MilitaryWoodland_HeliportsMedium_LandingZone_CUP_B_CDF; // Credit: 2600K
 			icon = "\ca\data\flag_usa_co.paa";
 			class Object1 {side = 8; vehicle = "Land_HelipadCircle_F"; rank = ""; position[] = {-2.875,-8.875,0}; dir = 0;};
 			class Object2 {side = 8; vehicle = "Land_BagFenceRound"; rank = ""; position[] = {-5.75757,-20.5825,0}; dir = 45;};
@@ -386,10 +386,10 @@
     };
     class HeliportsSmall
     {
-        name = "Heliports (Small)";
+        name = $STR_ZECCUP_HeliportsSmall;
 		// EAST
-		class ZECCUP_LZS_CUP_O_RU {
-			name = "LZ - Small (East)"; // Credit: 2600K
+		class LandingZone_CUP_O_RU {
+			name = $STR_ZECCUP_MilitaryWoodland_HeliportsSmall_LandingZone_CUP_O_RU; // Credit: 2600K
 			icon = "\ca\data\flag_rus_co.paa";
 			class Object1 {side = 8; vehicle = "Land_fort_bagfence_corner"; rank = ""; position[] = {-7.01208,-4.08496,0}; dir = 30;};
 			class Object2 {side = 8; vehicle = "Land_fort_bagfence_corner"; rank = ""; position[] = {-0.914795,-7.01221,0}; dir = 300;};
@@ -415,8 +415,8 @@
 			class Object23 {side = 8; vehicle = "Land_Sack_EP1"; rank = ""; position[] = {7.7511,21.7554,0}; dir = 75;};
 		};
 		// WEST
-		class ZECCUP_LZSml_CUP_B_CDF {
-			name = "LZ - Small (West)"; // Credit: 2600K
+		class LandingZone_CUP_B_CDF {
+			name = $STR_ZECCUP_MilitaryWoodland_HeliportsSmall_LandingZone_CUP_B_CDF; // Credit: 2600K
 			icon = "\ca\data\flag_usa_co.paa";
 			class Object1 {side = 8; vehicle = "Land_BagFenceRound"; rank = ""; position[] = {-9.63257,-3.83252,0}; dir = 44.9999;};
 			class Object2 {side = 8; vehicle = "Land_BagFenceLong"; rank = ""; position[] = {-10.0144,-0.998047,0}; dir = 270;};

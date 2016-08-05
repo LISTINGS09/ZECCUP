@@ -1,12 +1,12 @@
     class SettlementsLarge
     {
-        name = "Settlements (Large)";
+        name = $STR_ZECCUP_SettlementsLarge;
     };
     class SettlementsMedium
     {
-        name = "Settlements (Medium)";
+        name = $STR_ZECCUP_SettlementsMedium;
     };
     class SettlementsSmall
     {
-        name = "Settlements (Small)";
+        name = $STR_ZECCUP_SettlementsSmall;
     };

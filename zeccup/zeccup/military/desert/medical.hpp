@@ -1,9 +1,9 @@
     class MedicalLarge
     {
-        name = "Medical (Large)";
+        name = $STR_ZECCUP_MedicalLarge;
 		// EAST
-		class ZECCUP_Hostpital_CUP_O_TK {
-			name = "Hospital (East)"; // Credit: 2600K
+		class Hospital_CUP_O_TK {
+			name = $STR_ZECCUP_MilitaryDesert_MedicalLarge_Hospital_CUP_O_TK; // Credit: 2600K
 			icon = "\ca\data\flag_rus_co.paa";
 			class Object0 {side = 8; vehicle = "TK_WarfareBFieldhHospital_Base_EP1"; rank = ""; position[] = {0.195923,-5.93896,0}; dir = 210;};
 			class Object1 {side = 8; vehicle = "Land_CamoNetVar_EAST_EP1"; rank = ""; position[] = {-11.6127,-2.72363,0}; dir = 90;};
@@ -61,8 +61,8 @@
 			class Object54 {side = 8; vehicle = "Land_Pallets_stack_F"; rank = ""; position[] = {17.2242,5.30664,0}; dir = 196.374;};
 		};
 		// WEST
-		class ZECCUP_Hostpital_CUP_B_USMC {
-			name = "Hospital (West)"; // Credit: 2600K
+		class Hospital_CUP_B_USMC {
+			name = $STR_ZECCUP_MilitaryDesert_MedicalLarge_Hospital_CUP_B_USMC; // Credit: 2600K
 			icon = "\ca\data\flag_usa_co.paa";
 			class Object0 {side = 8; vehicle = "Land_CamoNetVar_NATO_EP1"; rank = ""; position[] = {-7.36267,-7.84863,0}; dir = 90;};
 			class Object1 {side = 8; vehicle = "Land_HBarrier_large"; rank = ""; position[] = {-1.0127,-13.3354,0}; dir = 0;};
@@ -126,9 +126,9 @@
     };
     class MedicalMedium
     {
-        name = "Medical (Medium)";
+        name = $STR_ZECCUP_MedicalMedium;
     };
     class MedicalSmall
     {
-        name = "Medical (Small)";
+        name = $STR_ZECCUP_MedicalSmall;
     };

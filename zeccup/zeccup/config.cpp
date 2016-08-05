@@ -72,11 +72,5 @@ class CfgGroups
 	    	name = "Military (Pacific)";
 	    	#include "military\pacific.hpp"
 	    };
-		
-		class Other
-		{
-			name = "Other";
-            #include "other\builders.hpp"
-        };
 	};
 };

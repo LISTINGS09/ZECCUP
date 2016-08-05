@@ -1,8 +1,8 @@
     class CommunicationsLarge
     {
-        name = "Communications (Large)";
-		class ZECCUP_AirRadar_CUP_O_RU {
-			name = "Air Radar (East)"; // Credit: 2600K
+        name = $STR_ZECCUP_CommunicationsLarge;
+		class AirRadar_CUP_O_RU {
+			name = $STR_ZECCUP_MilitaryWoodland_CommunicationsLarge_AirRadar_CUP_O_RU; // Credit: 2600K
 			icon = "\ca\data\flag_rus_co.paa";
 			class Object0 {side = 8; vehicle = "Barrel4"; rank = ""; position[] = {-6.03528,-1.61816,0}; dir = 45;};
 			class Object1 {side = 8; vehicle = "Barrel4"; rank = ""; position[] = {-7,-2,0}; dir = 315;};
@@ -35,8 +35,8 @@
 			class Object29 {side = 8; vehicle = "Land_CamoNet_EAST"; rank = ""; position[] = {13.925,-9.18848,0}; dir = 345;};
 			class Object30 {side = 8; vehicle = "Land_Sacks_heap_F"; rank = ""; position[] = {16.75,-2.75,0}; dir = 135;};
 		};
-		class ZECCUP_AirRadar_CUP_B_CDF {
-			name = "Air Radar (West)"; // Credit: 2600K
+		class AirRadar_CUP_B_CDF {
+			name = $STR_ZECCUP_MilitaryWoodland_CommunicationsLarge_AirRadar_CUP_B_CDF; // Credit: 2600K
 			icon = "\ca\data\flag_usa_co.paa";
 			class Object0 {side = 8; vehicle = "Land_HBarrier_Big_F"; rank = ""; position[] = {-13.2926,-2.78516,0}; dir = 270;};
 			class Object1 {side = 8; vehicle = "Land_HBarrier_Big_F"; rank = ""; position[] = {-10.2917,-9.3418,0}; dir = 225;};
@@ -62,8 +62,8 @@
 			class Object22 {side = 8; vehicle = "Land_Pallets_stack_F"; rank = ""; position[] = {8.375,-7.5,0}; dir = 194.999;};
 			class Object23 {side = 8; vehicle = "USMC_WarfareBAntiAirRadar"; rank = ""; position[] = {0.290283,1.18066,0}; dir = 0;};
 		};
-		class ZECCUP_ArtyRadar_CUP_O_RU {
-			name = "Artillery Radar (East)"; // Credit: 2600K
+		class ArtilleryRadar_CUP_O_RU {
+			name = $STR_ZECCUP_MilitaryWoodland_CommunicationsLarge_ArtilleryRadar_CUP_O_RU; // Credit: 2600K
 			icon = "\ca\data\flag_rus_co.paa";
 			class Object0 {side = 8; vehicle = "Land_fort_rampart"; rank = ""; position[] = {-3.5,-12.6494,0}; dir = 0;};
 			class Object1 {side = 8; vehicle = "Land_fort_rampart"; rank = ""; position[] = {-9.85034,-7.79883,0}; dir = 75;};
@@ -94,8 +94,8 @@
 			class Object27 {side = 8; vehicle = "Barrel1"; rank = ""; position[] = {8.875,3.25,0}; dir = 270;};
 			class Object28 {side = 8; vehicle = "Barrel1"; rank = ""; position[] = {8.38477,2.62451,0}; dir = 90;};
 		};
-		class ZECCUP_ArtyRadar_CUP_B_CDF {
-			name = "Artillery Radar (West)"; // Credit: 2600K
+		class ArtilleryRadar_CUP_B_CDF {
+			name = $STR_ZECCUP_MilitaryWoodland_CommunicationsLarge_ArtilleryRadar_CUP_B_CDF; // Credit: 2600K
 			icon = "\ca\data\flag_usa_co.paa";
 			class Object0 {side = 8; vehicle = "Land_HBarrier_Big_F"; rank = ""; position[] = {-11.7917,-12.5918,0}; dir = 225;};
 			class Object1 {side = 8; vehicle = "Land_HBarrier_5_F"; rank = ""; position[] = {-14.8711,-6.37354,0}; dir = 270;};
@@ -140,9 +140,9 @@
     };
     class CommunicationsMedium
     {
-        name = "Communications (Medium)";
-		class ZECCUP_RadioTower_CUP_O_RU {
-			name = "Radio Tower (East)"; // Credit: 2600K
+        name = $STR_ZECCUP_CommunicationsMedium;
+		class RadioTower_CUP_O_RU {
+			name = $STR_ZECCUP_MilitaryWoodland_CommunicationsMedium_RadioTower_CUP_O_RU; // Credit: 2600K
 			icon = "\ca\data\flag_rus_co.paa";
 			class Object1 {side = 8; vehicle = "CUP_A2_vysilac_fm"; rank = ""; position[] = {-6.9469,-7.04736,0}; dir = 0;};
 			class Object2 {side = 8; vehicle = "Land_fort_bagfence_corner"; rank = ""; position[] = {-10.4634,-12.6545,0}; dir = 0;};
@@ -176,8 +176,8 @@
 			class Object31 {side = 8; vehicle = "Land_CampingChair_V2_F"; rank = ""; position[] = {1.14014,0.343506,0}; dir = 44.9528;};
 			class Object32 {side = 8; vehicle = "Land_CampingChair_V2_F"; rank = ""; position[] = {2.02271,-0.187744,0}; dir = 30.0075;};
 		};
-		class ZECCUP_RadioTower_CUP_B_CDF {
-			name = "Radio Tower (West)"; // Credit: 2600K
+		class RadioTower_CUP_B_CDF {
+			name = $STR_ZECCUP_MilitaryWoodland_CommunicationsMedium_RadioTower_CUP_B_CDF; // Credit: 2600K
 			icon = "\ca\data\flag_usa_co.paa";
 			class Object1 {side = 8; vehicle = "Land_BagFenceRound"; rank = ""; position[] = {-11.8824,-8.20728,0}; dir = 45;};
 			class Object2 {side = 8; vehicle = "Land_BagFenceLong"; rank = ""; position[] = {-12.2644,-2.4978,0}; dir = 270;};
@@ -221,9 +221,9 @@
     };
     class CommunicationsSmall
     {
-        name = "Communications (Small)";
-		class ZECCUP_UAVTerminal_CUP_B_CDF {
-			name = "UAV Terminal (West)"; // Credit: 2600K
+        name = $STR_ZECCUP_CommunicationsSmall;
+		class UAVTerminal_CUP_B_CDF {
+			name = $STR_ZECCUP_MilitaryWoodland_CommunicationsSmall_UAVTerminal_CUP_B_CDF; // Credit: 2600K
 			icon = "\ca\data\flag_usa_co.paa";
 			class Object0 {side = 8; vehicle = "Land_HBarrier_5_F"; rank = ""; position[] = {-3.81604,-6.41162,0}; dir = 270;};
 			class Object1 {side = 8; vehicle = "Land_HBarrier_5_F"; rank = ""; position[] = {0.428833,-7.53418,0}; dir = 180;};
@@ -249,8 +249,8 @@
 			class Object22 {side = 8; vehicle = "Land_MetalBarrel_F"; rank = ""; position[] = {6.68005,-2.28809,0}; dir = 0.00687372;};
 			class Object23 {side = 8; vehicle = "Land_MetalBarrel_empty_F"; rank = ""; position[] = {5.9303,-2.28809,0}; dir = 150;};
 		};
-		class ZECCUP_UAVTerminal_CUP_O_RU {
-			name = "UAV Terminal (East)"; // Credit: 2600K
+		class UAVTerminal_CUP_O_RU {
+			name = $STR_ZECCUP_MilitaryWoodland_CommunicationsSmall_UAVTerminal_CUP_O_RU; // Credit: 2600K
 			icon = "\ca\data\flag_rus_co.paa";
 			class Object0 {side = 8; vehicle = "Land_fort_rampart"; rank = ""; position[] = {0.454712,1.78809,0}; dir = 75;};
 			class Object1 {side = 8; vehicle = "Land_fort_bagfence_round"; rank = ""; position[] = {10.7295,-1.75928,0}; dir = 75;};

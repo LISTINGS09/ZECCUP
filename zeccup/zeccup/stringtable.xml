@@ -314,6 +314,9 @@
 <Key ID="STR_ZECCUP_MilitaryDesert_CheckpointsBarricadesMedium_BunkerLarge_CUP_B_USMC">
     <Original>Bunker (Large) Checkpoint</Original>
 </Key>
+<Key ID="STR_ZECCUP_MilitaryDesert_CheckpointsBarricadesMedium_TowerBunker_CUP_B_USMC">
+    <Original>Tower Bunker Checkpoint</Original>
+</Key>
 
 <Key ID="STR_ZECCUP_MilitaryDesert_CheckpointsBarricadesSmall_BunkerSmall_CUP_O_TK">
     <Original>Bunker (Small) Checkpoint</Original>
@@ -388,6 +391,9 @@
     <Original>Container Yard</Original>
 </Key>
 
+
+STR_ZECCUP_MilitaryDesert_ConstructionSuppliesLarge_FillerSupplies
+
 <Key ID="STR_ZECCUP_MilitaryDesert_ConstructionSuppliesLarge_BaseObjects">
     <Original>Base Objects</Original>
 </Key>
@@ -399,6 +405,15 @@
 </Key>
 <Key ID="STR_ZECCUP_MilitaryDesert_ConstructionSuppliesLarge_Walls">
     <Original>Walls</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryDesert_ConstructionSuppliesLarge_Sandbags_CUP_B_USMC">
+    <Original>Sandbags - West</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryDesert_ConstructionSuppliesLarge_Sandbags_CUP_O_TK">
+    <Original>Sandbags - East</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryDesert_ConstructionSuppliesLarge_FillerSupplies">
+    <Original>Filler - Supplies</Original>
 </Key>
 
 <Key ID="STR_ZECCUP_MilitaryDesert_FieldHQMedium_HQField_CUP_O_TK">
@@ -552,6 +567,13 @@
     <Original>Landing Zone</Original>
 </Key>
 
+<Key ID="STR_ZECCUP_MilitaryDesert_HQLarge_Headquarters_CUP_B_USMC">
+    <Original>Headquarters</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryDesert_HQLarge_Headquarters_CUP_O_TK">
+    <Original>Headquarters</Original>
+</Key>
+
 <Key ID="STR_ZECCUP_MilitaryDesert_HQMedium_HQCargo_CUP_O_TK">
     <Original>HQ - Cargo</Original>
 </Key>
@@ -660,6 +682,45 @@
     <Original>Camp</Original>
 </Key>
 
+<Key ID="STR_ZECCUP_MilitaryWoodland_CheckpointsBarricadesMedium_VehicleBunker_CUP_O_RU">
+    <Original>Vehicle Bunker Checkpoint</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_CheckpointsBarricadesMedium_TowerBunker_CUP_O_RU">
+    <Original>Tower Bunker Checkpoint</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_CheckpointsBarricadesMedium_HeavyBunker_CUP_O_RU">
+    <Original>Heavy Bunker Checkpoint</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_CheckpointsBarricadesMedium_VehicleBunker_CUP_B_CDF">
+    <Original>Vehicle Bunker Checkpoint</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_CheckpointsBarricadesMedium_TowerBunker_CUP_B_CDF">
+    <Original>Tower Bunker Checkpoint</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_CheckpointsBarricadesMedium_ConcreteTower_CUP_B_CDF">
+    <Original>Concrete Tower Checkpoint</Original>
+</Key>
+
+<Key ID="STR_ZECCUP_MilitaryWoodland_CheckpointsBarricadesSmall_SandbagNet_CUP_O_RU">
+    <Original>Sandbag Checkpoint (Net)</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_CheckpointsBarricadesSmall_VehicleRampart_CUP_O_RU">
+    <Original>Vehicle Rampart Checkpoint</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_CheckpointsBarricadesSmall_BunkerSmall_CUP_O_RU">
+    <Original>Bunker (Small) Checkpoint</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_CheckpointsBarricadesSmall_SandbagNet_CUP_B_CDF">
+    <Original>Sandbag Checkpoint (Net)</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_CheckpointsBarricadesSmall_ConcretePost_CUP_B_CDF">
+    <Original>Concrete Post Checkpoint</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_CheckpointsBarricadesSmall_BunkerSmall_CUP_B_CDF">
+    <Original>Bunker (Small) Checkpoint</Original>
+</Key>
+
+
 <Key ID="STR_ZECCUP_MilitaryWoodland_CommunicationsLarge_AirRadar_CUP_O_RU">
     <Original>Anti-Air Radar</Original>
 </Key>
@@ -708,6 +769,15 @@
 </Key>
 <Key ID="STR_ZECCUP_MilitaryWoodland_ConstructionSuppliesLarge_Walls">
     <Original>Walls</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_ConstructionSuppliesLarge_Sandbags_CUP_B_USMC">
+    <Original>Sandbags - West</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_ConstructionSuppliesLarge_Sandbags_CUP_O_TK">
+    <Original>Sandbags - East</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_ConstructionSuppliesLarge_FillerSupplies">
+    <Original>Filler - Supplies</Original>
 </Key>
 
 <Key ID="STR_ZECCUP_MilitaryWoodland_FieldHQMedium_HQField_CUP_O_RU">
@@ -860,6 +930,13 @@
 </Key>
 <Key ID="STR_ZECCUP_MilitaryWoodland_HeliportsSmall_LandingZone_CUP_B_CDF">
     <Original>Landing Zone</Original>
+</Key>
+
+<Key ID="STR_ZECCUP_MilitaryWoodland_HQLarge_Headquarters_CUP_B_CDF">
+    <Original>Headquarters</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_HQLarge_Headquarters_CUP_O_RU">
+    <Original>Headquarters</Original>
 </Key>
 
 <Key ID="STR_ZECCUP_MilitaryWoodland_HQMedium_HQCargo_CUP_O_RU">

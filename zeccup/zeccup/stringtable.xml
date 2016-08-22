@@ -422,12 +422,27 @@ STR_ZECCUP_MilitaryDesert_ConstructionSuppliesLarge_FillerSupplies
     <Original>Filler - Supplies</Original>
 </Key>
 
+
+<Key ID="STR_ZECCUP_MilitaryDesert_FieldHQLarge_HQTent_CUP_O_TK">
+    <Original>Field Tents</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryDesert_FieldHQLarge_HQTent_CUP_B_USMC">
+    <Original>Field Tents</Original>
+</Key>
+
+<Key ID="STR_ZECCUP_MilitaryDesert_FieldHQMedium_HQTent_CUP_O_TK">
+    <Original>Fortified HQ</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryDesert_FieldHQMedium_HQTent_CUP_B_USMC">
+    <Original>Fortified HQ</Original>
+</Key>
 <Key ID="STR_ZECCUP_MilitaryDesert_FieldHQMedium_HQField_CUP_O_TK">
-    <Original>HQ - Field</Original>
+    <Original>Basic HQ</Original>
 </Key>
 <Key ID="STR_ZECCUP_MilitaryDesert_FieldHQMedium_HQField_CUP_B_USMC">
-    <Original>HQ - Field</Original>
+    <Original>Basic HQ</Original>
 </Key>
+
 
 <Key ID="STR_ZECCUP_MilitaryDesert_FortLarge_MortarPit_CUP_O_TK">
     <Original>Mortar Pit</Original>
@@ -881,30 +896,25 @@ STR_ZECCUP_MilitaryDesert_ConstructionSuppliesLarge_FillerSupplies
 </Key>
 
 <Key ID="STR_ZECCUP_MilitaryDesert_HQMedium_HQCargo_CUP_O_TK">
-    <Original>HQ - Cargo</Original>
+    <Original>HQ Cargo Post</Original>
 </Key>
 <Key ID="STR_ZECCUP_MilitaryDesert_HQMedium_HQCargo_CUP_B_USMC">
-    <Original>HQ - Cargo</Original>
-</Key>
-<Key ID="STR_ZECCUP_MilitaryDesert_HQMedium_HQTent_CUP_O_TK">
-    <Original>HQ - Tent</Original>
-</Key>
-<Key ID="STR_ZECCUP_MilitaryDesert_HQMedium_HQTent_CUP_B_USMC">
-    <Original>HQ - Tent</Original>
+    <Original>HQ Cargo Post</Original>
 </Key>
 
 <Key ID="STR_ZECCUP_MilitaryDesert_HQSmall_HQUnfoldedBRDM_CUP_O_TK">
-    <Original>HQ Radio</Original>
+    <Original>Mobile HQ &amp; Tower</Original>
 </Key>
 <Key ID="STR_ZECCUP_MilitaryDesert_HQSmall_HQUnfoldedBMP_CUP_O_TK">
-    <Original>HQ Field</Original>
+    <Original>Mobile HQ</Original>
 </Key>
 <Key ID="STR_ZECCUP_MilitaryDesert_HQSmall_HQUnfoldedM1130A_CUP_B_USMC">
-    <Original>HQ Radio</Original>
+    <Original>Mobile HQ &amp; Tower</Original>
 </Key>
 <Key ID="STR_ZECCUP_MilitaryDesert_HQSmall_HQUnfoldedM1130B_CUP_B_USMC">
-    <Original>HQ Field</Original>
+    <Original>Mobile HQ</Original>
 </Key>
+
 
 <Key ID="STR_ZECCUP_MilitaryDesert_MedicalLarge_Hospital_CUP_O_TK">
     <Original>Hospital</Original>
@@ -939,13 +949,13 @@ STR_ZECCUP_MilitaryDesert_ConstructionSuppliesLarge_FillerSupplies
 <Key ID="STR_ZECCUP_MilitaryDesert_SupportsLarge_Barracks_CUP_B_USMC">
     <Original>Barracks</Original>
 </Key>
-<Key ID="STR_ZECCUP_MilitaryDesert_SupportsLarge_ServicePoint_CUP_O_TK">
-    <Original>Service Point</Original>
-</Key>
-<Key ID="STR_ZECCUP_MilitaryDesert_SupportsLarge_ServicePoint_CUP_B_USMC">
-    <Original>Service Point</Original>
-</Key>
 
+<Key ID="STR_ZECCUP_MilitaryDesert_SupportsMedium_ServicePoint_CUP_O_TK">
+    <Original>Service Point</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryDesert_SupportsMedium_ServicePoint_CUP_B_USMC">
+    <Original>Service Point</Original>
+</Key>
 <Key ID="STR_ZECCUP_MilitaryDesert_SupportsMedium_ServiceArea_CUP_O_TK">
     <Original>Service Area</Original>
 </Key>
@@ -1087,10 +1097,10 @@ STR_ZECCUP_MilitaryDesert_ConstructionSuppliesLarge_FillerSupplies
 </Key>
 
 <Key ID="STR_ZECCUP_MilitaryWoodland_FieldHQMedium_HQField_CUP_O_RU">
-    <Original>HQ - Field</Original>
+    <Original>Basic HQ</Original>
 </Key>
 <Key ID="STR_ZECCUP_MilitaryWoodland_FieldHQMedium_HQField_CUP_B_CDF">
-    <Original>HQ - Field</Original>
+    <Original>Basic HQ</Original>
 </Key>
 
 <Key ID="STR_ZECCUP_MilitaryWoodland_FortLarge_MortarPit_CUP_O_RU">
@@ -1549,31 +1559,32 @@ STR_ZECCUP_MilitaryDesert_ConstructionSuppliesLarge_FillerSupplies
 </Key>
 
 <Key ID="STR_ZECCUP_MilitaryWoodland_HQMedium_HQCargo_CUP_O_RU">
-    <Original>HQ - Cargo</Original>
+    <Original>HQ Cargo Post</Original>
 </Key>
 <Key ID="STR_ZECCUP_MilitaryWoodland_HQMedium_HQCargo_CUP_B_CDF">
-    <Original>HQ - Cargo</Original>
-</Key>
-<Key ID="STR_ZECCUP_MilitaryWoodland_HQMedium_HQTent_CUP_O_RU">
-    <Original>HQ - Tent</Original>
-</Key>
-<Key ID="STR_ZECCUP_MilitaryWoodland_HQMedium_HQTent_CUP_B_CDF">
-    <Original>HQ - Tent</Original>
+    <Original>HQ Cargo Post</Original>
 </Key>
 
 <Key ID="STR_ZECCUP_MilitaryWoodland_HQSmall_HQUnfoldedBTR_CUP_O_RU">
-    <Original>Deployed HQ - BTR</Original>
+    <Original>Mobile HQ - BTR</Original>
 </Key>
 <Key ID="STR_ZECCUP_MilitaryWoodland_HQSmall_HQUnfoldedLAV_CUP_B_CDF">
-    <Original>Deployed HQ - LAV</Original>
+    <Original>Mobile HQ - LAV</Original>
 </Key>
 
 <Key ID="STR_ZECCUP_MilitaryWoodland_FieldHQMedium_HQField_CUP_O_RU">
-    <Original>HQ - Field</Original>
+    <Original>Basic HQ</Original>
 </Key>
 <Key ID="STR_ZECCUP_MilitaryWoodland_FieldHQMedium_HQField_CUP_B_CDF">
-    <Original>HQ - Field</Original>
+    <Original>Basic HQ</Original>
 </Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_FieldHQMedium_HQTent_CUP_O_RU">
+    <Original>Fortified HQ</Original>
+</Key>
+<Key ID="STR_ZECCUP_MilitaryWoodland_FieldHQMedium_HQTent_CUP_B_CDF">
+    <Original>Fortified HQ</Original>
+</Key>
+
 
 <Key ID="STR_ZECCUP_MilitaryWoodland_MedicalLarge_Hospital_CUP_O_RU">
     <Original>Hospital</Original>

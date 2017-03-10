@@ -218,12 +218,12 @@
 			class Object22 {side = 8; vehicle = "CUP_A2_plutek"; rank = ""; position[] = {-12.2645,-2.85284,0}; dir = 0;};
 			class Object23 {side = 8; vehicle = "zidka01"; rank = ""; position[] = {-5.59375,6.01501,0}; dir = 0;};
 			class Object24 {side = 8; vehicle = "zidka02"; rank = ""; position[] = {-15.5938,6.00385,0}; dir = 0;};
-			class Object25 {side = 8; vehicle = "CUP_A1_zed_kamenna_desert"; rank = ""; position[] = {-8.51746,13.2205,0}; dir = 0;};
-			class Object26 {side = 8; vehicle = "CUP_A1_zed_kamenna_desert"; rank = ""; position[] = {-12.6425,13.2205,0}; dir = 0;};
-			class Object27 {side = 8; vehicle = "CUP_A1_zed_kamenna_desert"; rank = ""; position[] = {-4.39246,13.2205,0}; dir = 0;};
-			class Object28 {side = 8; vehicle = "CUP_A1_zed_kamenna"; rank = ""; position[] = {-8.51746,18.7205,0}; dir = 0;};
-			class Object29 {side = 8; vehicle = "CUP_A1_zed_kamenna"; rank = ""; position[] = {-12.6425,18.7205,0}; dir = 0;};
-			class Object30 {side = 8; vehicle = "CUP_A1_zed_kamenna"; rank = ""; position[] = {-4.39246,18.7205,0}; dir = 0;};
+			class Object25 {side = 8; vehicle = "zed_kamenna_desert"; rank = ""; position[] = {-8.51746,13.2205,0}; dir = 0;};
+			class Object26 {side = 8; vehicle = "zed_kamenna_desert"; rank = ""; position[] = {-12.6425,13.2205,0}; dir = 0;};
+			class Object27 {side = 8; vehicle = "zed_kamenna_desert"; rank = ""; position[] = {-4.39246,13.2205,0}; dir = 0;};
+			class Object28 {side = 8; vehicle = "zed_kamenna"; rank = ""; position[] = {-8.51746,18.7205,0}; dir = 0;};
+			class Object29 {side = 8; vehicle = "zed_kamenna"; rank = ""; position[] = {-12.6425,18.7205,0}; dir = 0;};
+			class Object30 {side = 8; vehicle = "zed_kamenna"; rank = ""; position[] = {-4.39246,18.7205,0}; dir = 0;};
 			class Object31 {side = 8; vehicle = "CUP_A2_plot_vlnplech1"; rank = ""; position[] = {-4.62585,1.19794,0}; dir = 0;};
 			class Object32 {side = 8; vehicle = "CUP_A2_plot_vlnplech1"; rank = ""; position[] = {-9.62585,1.19794,0}; dir = 0;};
 			class Object33 {side = 8; vehicle = "Land_Zidka_branka"; rank = ""; position[] = {-5.50281,6.51086,0}; dir = 180;};

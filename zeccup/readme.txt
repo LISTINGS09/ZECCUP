@@ -14,6 +14,8 @@ Author: 2600K/LSD
 http://zeus-community.net/
 
 Changelog:
+V.1.0.2
+* 1.68 Zeus Spawning Fix.
 
 V.1.0.1
 * Structure update and new compositions.
